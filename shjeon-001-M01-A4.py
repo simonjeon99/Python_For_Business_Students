@@ -1,0 +1,8 @@
+print("Hello user!")
+print("What is your name?:")
+stri = input()
+print(stri + ", what is your favorite color?:")
+color = input().lower()
+print(stri + ", how old are you?:")
+age = input()
+print(stri + ", you are " + age + " years old, and your favorite color is " + color + ". Nice to meet you!")
